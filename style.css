@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.container{
+    width: 100%;
+}
+
+.site-logo {
+    margin: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    font-size: 14px;
+    margin-left: 179px;
+}   
+
+.nav-item ul li a{
+ text-decoration: none;    
+}
+
+.nav-item ul li a:hover{
+    color: #F2295B;    
+   }
+   
+.right{
+    display: flex;
+    color: #F2295B;
+    font-size: 14px;
+}
+
+i.fa.fa-shopping-basket {
+    font-size: 21px;
+    margin: 0 10px;
+}
+/* header */
+
+/* hero section */
+
+.custom-hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.custom-printed{
+    color: #415161;
+    font-size: 64px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.custom-para-printed{
+    color: #415161;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn{
+    border: none;
+}
+
